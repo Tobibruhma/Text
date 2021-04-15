@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="50dp"
+      android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+
+        android:src="@drawable/logo_new1" />
+
+    <Button
+        android:id="@+id/buttonsign"
+        android:layout_width="320dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="40dp"
+        android:text="ВОЙТИ"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background=""
+        android:layout_marginTop="600dp" />
+    <Button
+        android:id="@+id/buttonreg"
+        android:layout_width="320dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="40dp"
+        android:text="регистрация"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background=""
+        android:layout_marginTop="650dp" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:text="Мир запчастей в твоем кармане!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+
+
+
+</RelativeLayout>
